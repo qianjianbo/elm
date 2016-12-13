@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <title>vue-one</title>
+    <link rel="stylesheet" href="./static/reset.css">
+    <link rel="stylesheet" href="./static/style.css">
+  </head>
+  <body>
+  <!--v-if 判断是否显示-->
+  <!--v-show 判断是否显示(于v-if的区别在于现实的方式不同,不管是false还是true都会显示)-->
+    <div id="app" v-if="isShow">
+      <!--<span>-->
+        <!--我是span-->
+      <!--</span>-->
+      <ul>
+        <!--<li v-for="key,value in arr">-->
+        <!--{{key.text}}:{{value}}-->
+        <!--</li>-->
+        <!--<li v-for="value,key,index in obj">-->
+          <!--{{key}}:{{value}}:{{index}}-->
+        <!--</li>-->
+        <!--<li v-for="item,index of arr">-->
+          <!--{{item.text}}:{{index}}-->
+        <!--</li>-->
+      </ul>
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
